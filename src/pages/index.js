@@ -47,24 +47,9 @@ const IndexPage = () => {
                 <div>
                     <div>
                         <h4>WAN-Accessible services</h4>
-                        <SubText>From left to right: Git Server, Nextcloud, Vaultwarden (feel free to sign up!)</SubText>
                     </div>
                     <IconRow>
-                        <ClickyIcon url={"https://git.derpz.net"} icon={faGitAlt}/>
-                        <ClickyIcon url={"https://drive.derpz.net"} icon={faGoogleDrive} />
                         <ClickyIcon url={"https://pw.derpz.net"} icon={faKey} />
-                    </IconRow>
-                </div>
-                <div>
-                    <div>
-                        <h4>Lan-Only services</h4>
-                        <SubText>From left to right: qBittorrent, Pi-Hole 0, Pi-Hole 1, phpMyAdmin</SubText>
-                    </div>
-                    <IconRow>
-                        <ClickyIcon url={"http://qbt.old-pc.box"} icon={faBroadcastTower}/>
-                        <ClickyIcon url={"http://192.168.1.2/admin"} icon={faRaspberryPi} />
-                        <ClickyIcon url={"http://192.168.1.3/admin"} icon={faRaspberryPi} />
-                        <ClickyIcon url={"http://pma.old-pc.box"} icon={faDatabase} />
                     </IconRow>
                 </div>
 
